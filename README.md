@@ -203,7 +203,7 @@ function setCookies() {
       }
       setCookies();
 ```
-   ![Alert Message shown on First Visit](assets/img/screenshots/firstVisit.png)
+   ![Alert Message shown on First Visit](assets/img/screenshots/welcomeAlert.png)
 
    ![Alert Message shown on revisit](assets/img/screenshots/lastVisit.png)
    
