@@ -231,4 +231,4 @@ function setCookies() {
    ![Alert Message shown on revisit](assets/img/screenshots/lastVisit.png)
    
 
-
+A pandoc file has been generated from Readme.md with the name rayanate-waph-project1.pdf
