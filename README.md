@@ -70,16 +70,16 @@ I have added React CDN in the HTML page to include react library in the website.
 ```HTML
 <div id="root"></div>
 
-      <script>
-        const App = () => {
-          return React.createElement('h1', null, 'Tejaswee Rayana');
-        };
-    
-        ReactDOM.render(
-          React.createElement(App),
-          document.getElementById('root')
-        );
-      </script>
+     <script>
+            const App = () => {
+              return React.createElement('p', null, 'Experienced developer with expertise in designing, implementing, and maintaining software solutions. Skilled in diverse programming languages and frameworks, adept at translating business requirements into efficient code. Collaborative team player with a keen eye for detail and a commitment to quality. Continuously learning and adapting to emerging technologies, dedicated to delivering user-centric solutions.');
+            };
+
+            ReactDOM.render(
+              React.createElement(App),
+              document.getElementById('root')
+            );
+          </script>
 ```
 
 
