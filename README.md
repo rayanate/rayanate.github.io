@@ -10,7 +10,7 @@
 
 **Short-bio**: Tejaswee Rayana has a great interest in coding. She wants to become a full-stack developer.
 
-  ![Teju's Headshot](images/headshot.jpg)
+  ![Teju's Headshot](assets/img/Teju_updated.jpg)
 
 ## Repository Information
 
@@ -23,6 +23,8 @@
 In this project, I have developed a professional website using HTML, CSS, Javascript and Bootstrap. The application has been deployed on GitHub website. Below is the URL for the portfolio website.
 
   Website's URL: [https://github.com/rayanate/rayanate.github.io](https://rayanate.github.io)
+
+   ![Home Page of Portfolio Website](assets/img/screenshots/HomePage.png)
 
 ## General requirements:
 
