@@ -60,6 +60,29 @@ Below is the JQuery CDN used in the project
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 ```
 
+I have added React CDN in the HTML page to include react library in the website.
+
+```JS
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+```
+
+```HTML
+<div id="root"></div>
+
+      <script>
+        const App = () => {
+          return React.createElement('h1', null, 'Tejaswee Rayana');
+        };
+    
+        ReactDOM.render(
+          React.createElement(App),
+          document.getElementById('root')
+        );
+      </script>
+```
+
+
 I have included the functionalities from Lab2 i.e. analog clock, digital clock, show/hide email, Joke API
 1. Digital Clock
 
