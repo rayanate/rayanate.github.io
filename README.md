@@ -96,7 +96,7 @@ I have included the functionalities from Lab2 i.e. analog clock, digital clock, 
   				}
     </script>
   ```
-   ![Analog Clock](assets/img/screenshots/analogCLock.png)
+   ![Analog Clock](assets/img/screenshots/analogClock.png)
 
     
 3. Show/Hide Email
@@ -137,7 +137,7 @@ fetchJoke();
 
 setInterval(fetchJoke, 60000);
 ```
-   ![Displaying Joke for every one minute](assets/img/screenshots/joke.png)
+   ![Displaying Joke for every one minute](assets/img/screenshots/jokeAPI.png)
 
 5. Public API
    I have integrated Weather API to display weather and NASA API to display the image of the day.
@@ -164,25 +164,24 @@ setInterval(fetchJoke, 60000);
       const city = 'Cincinnati';
       getWeatherData(city);
       ```
-   ![Dsplaying Weather](assets/img/screenshots/weather.png)
+   ![Dsplaying Weather](assets/img/screenshots/NASA.png)
       
     b. NASA Astronomy Picture of the Day (APOD)
 
-     ```JS
-     const apiKey = 'rD28vkNDNAtUjRvS4jcgLJnBII2IbEtZpFY7PtMO';
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
-      .then(response => response.json())
-      .then(data => {
-          const apodImage = document.getElementById('apodImage');
-          apodImage.src = data.url;
-          apodImage.alt = data.title;
-      })
-      .catch(error => {
-          console.error('Error fetching APOD image:', error);
-      });
-  ```
-
-   ![Displaying NASA's Astronomy Picture of the Day](assets/img/screenshots/HomePage3.png)
+	```JS
+            const apiKey = 'rD28vkNDNAtUjRvS4jcgLJnBII2IbEtZpFY7PtMO';
+	    fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
+	      .then(response => response.json())
+	      .then(data => {
+	          const apodImage = document.getElementById('apodImage');
+	          apodImage.src = data.url;
+	          apodImage.alt = data.title;
+	      })
+	      .catch(error => {
+	          console.error('Error fetching APOD image:', error);
+	      });
+ 	```
+   ![Displaying NASA's Astronomy Picture of the Day](assets/img/screenshots/NASA.png)
 
 
 4. Javascript Cookies
@@ -204,9 +203,9 @@ function setCookies() {
       }
       setCookies();
 ```
-   ![Alert Message shown on First Visit](assets/img/screenshots/cookies1.png)
+   ![Alert Message shown on First Visit](assets/img/screenshots/firstVisit.png)
 
-   ![Alert Message shown on revisit](assets/img/screenshots/cookies2.png)
+   ![Alert Message shown on revisit](assets/img/screenshots/lastVisit.png)
    
 
 
